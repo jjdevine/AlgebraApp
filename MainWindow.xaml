@@ -1,0 +1,18 @@
+﻿<Window x:Class="AlgebraApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlgebraApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="-20,0,0,30" Background="#FFE8F36C">
+        <Label x:Name="lQuestion" Content="Question" HorizontalAlignment="Left" Height="53" Margin="157,54,0,0" VerticalAlignment="Top" Width="410" FontWeight="Bold" FontSize="22" Foreground="#FF1E19F6"/>
+        <Label x:Name="lAnswer" Content="Answer" HorizontalAlignment="Left" Margin="157,145,0,0" VerticalAlignment="Top" Width="410" Height="57" Foreground="#FF2EB020" FontSize="22" FontWeight="Bold"/>
+        <TextBox x:Name="tAnswer" HorizontalAlignment="Left" Margin="54,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" Height="36" FontSize="18"/>
+        <Button x:Name="bSubmit" Content="Submit Answer" HorizontalAlignment="Left" Height="37" Margin="334,242,0,0" VerticalAlignment="Top" Width="190" Click="Button_Click" FontWeight="Bold"/>
+        <Button x:Name="bNext" Content="Next Question" HorizontalAlignment="Left" Height="37" Margin="537,243,0,0" VerticalAlignment="Top" Width="190" Click="Button_Click" IsEnabled="False" FontWeight="Bold"/>
+        <Label x:Name="lMessage" Content="Correct!" HorizontalAlignment="Left" Margin="157,324,0,0" VerticalAlignment="Top" Width="410" Height="46" Foreground="#FF2EB020" FontSize="22" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
